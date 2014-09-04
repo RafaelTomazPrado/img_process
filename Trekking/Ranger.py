@@ -8,7 +8,7 @@ img = cv2.imread(filename)
 
 #error while reading image
 if img is None:
-   print "ERROR: file could not be opened!"
+   print("ERROR: file could not be opened!")
    exit()
 
 #resizes and copy image
